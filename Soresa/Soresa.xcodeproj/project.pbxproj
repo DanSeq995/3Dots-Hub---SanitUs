@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B55B48286816790088004A /* GenericCategoryEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B55B47286816790088004A /* GenericCategoryEntryView.swift */; };
+		D104139B2867F465009205E9 /* ListOfDoctorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D104139A2867F465009205E9 /* ListOfDoctorsView.swift */; };
+		D10C8B95286776AC00E3D529 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C8B94286776AC00E3D529 /* ViewRouter.swift */; };
+		D10C8B9728677CC000E3D529 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C8B9628677CC000E3D529 /* MainView.swift */; };
+		D10C8B992867CE2300E3D529 /* MedicalRecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C8B982867CE2200E3D529 /* MedicalRecordsView.swift */; };
+		D10C8B9B2867D65A00E3D529 /* DoctorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C8B9A2867D65A00E3D529 /* DoctorListView.swift */; };
+		D10C8B9D2867DE7400E3D529 /* TherapiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C8B9C2867DE7400E3D529 /* TherapiesView.swift */; };
+		D10C8B9F2867E19200E3D529 /* DoctorMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C8B9E2867E19200E3D529 /* DoctorMapView.swift */; };
+		D14886A32867708400E387E7 /* SoresaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14886A22867708400E387E7 /* SoresaApp.swift */; };
+		D14886A52867708400E387E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14886A42867708400E387E7 /* ContentView.swift */; };
+		D14886A72867708900E387E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14886A62867708900E387E7 /* Assets.xcassets */; };
+		D14886AA2867708900E387E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14886A92867708900E387E7 /* Preview Assets.xcassets */; };
+		D14886AC2867708900E387E7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14886AB2867708900E387E7 /* Persistence.swift */; };
+		D14886AF2867708900E387E7 /* Soresa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D14886AD2867708900E387E7 /* Soresa.xcdatamodeld */; };
+		D14886B6286770EB00E387E7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14886B5286770EB00E387E7 /* LoginView.swift */; };
+		EF0B29EE2868098E00F74D9B /* DetailDoctorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B29ED2868098E00F74D9B /* DetailDoctorView.swift */; };
+		EF0B29F028681BEE00F74D9B /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0B29EF28681BEE00F74D9B /* map.png */; };
+		EF0B29F628683E4B00F74D9B /* img_quattro.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0B29F528683E4B00F74D9B /* img_quattro.png */; };
+		EF0B29F8286841F900F74D9B /* MedicineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B29F7286841F900F74D9B /* MedicineView.swift */; };
+		EF0B29FA2868681100F74D9B /* mapDoctor.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0B29F92868681100F74D9B /* mapDoctor.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13B55B47286816790088004A /* GenericCategoryEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCategoryEntryView.swift; sourceTree = "<group>"; };
+		D104139A2867F465009205E9 /* ListOfDoctorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfDoctorsView.swift; sourceTree = "<group>"; };
+		D10C8B94286776AC00E3D529 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		D10C8B9628677CC000E3D529 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D10C8B982867CE2200E3D529 /* MedicalRecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalRecordsView.swift; sourceTree = "<group>"; };
+		D10C8B9A2867D65A00E3D529 /* DoctorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorListView.swift; sourceTree = "<group>"; };
+		D10C8B9C2867DE7400E3D529 /* TherapiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapiesView.swift; sourceTree = "<group>"; };
+		D10C8B9E2867E19200E3D529 /* DoctorMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorMapView.swift; sourceTree = "<group>"; };
+		D148869F2867708400E387E7 /* SanitUs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SanitUs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14886A22867708400E387E7 /* SoresaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoresaApp.swift; sourceTree = "<group>"; };
+		D14886A42867708400E387E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D14886A62867708900E387E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D14886A92867708900E387E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D14886AB2867708900E387E7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D14886AE2867708900E387E7 /* Soresa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Soresa.xcdatamodel; sourceTree = "<group>"; };
+		D14886B5286770EB00E387E7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EF0B29ED2868098E00F74D9B /* DetailDoctorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDoctorView.swift; sourceTree = "<group>"; };
+		EF0B29EF28681BEE00F74D9B /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		EF0B29F528683E4B00F74D9B /* img_quattro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_quattro.png; sourceTree = "<group>"; };
+		EF0B29F7286841F900F74D9B /* MedicineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineView.swift; sourceTree = "<group>"; };
+		EF0B29F92868681100F74D9B /* mapDoctor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapDoctor.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D148869C2867708400E387E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D14886962867708300E387E7 = {
+			isa = PBXGroup;
+			children = (
+				D14886A12867708400E387E7 /* Soresa */,
+				D14886A02867708400E387E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D14886A02867708400E387E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D148869F2867708400E387E7 /* SanitUs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D14886A12867708400E387E7 /* Soresa */ = {
+			isa = PBXGroup;
+			children = (
+				D14886A22867708400E387E7 /* SoresaApp.swift */,
+				D10C8B94286776AC00E3D529 /* ViewRouter.swift */,
+				D14886B5286770EB00E387E7 /* LoginView.swift */,
+				D14886A42867708400E387E7 /* ContentView.swift */,
+				D10C8B9628677CC000E3D529 /* MainView.swift */,
+				D10C8B9E2867E19200E3D529 /* DoctorMapView.swift */,
+				D10C8B982867CE2200E3D529 /* MedicalRecordsView.swift */,
+				13B55B47286816790088004A /* GenericCategoryEntryView.swift */,
+				D10C8B9A2867D65A00E3D529 /* DoctorListView.swift */,
+				D10C8B9C2867DE7400E3D529 /* TherapiesView.swift */,
+				D14886AB2867708900E387E7 /* Persistence.swift */,
+				D104139A2867F465009205E9 /* ListOfDoctorsView.swift */,
+				EF0B29ED2868098E00F74D9B /* DetailDoctorView.swift */,
+				EF0B29F7286841F900F74D9B /* MedicineView.swift */,
+				D14886A62867708900E387E7 /* Assets.xcassets */,
+				D14886AD2867708900E387E7 /* Soresa.xcdatamodeld */,
+				EF0B29F528683E4B00F74D9B /* img_quattro.png */,
+				EF0B29EF28681BEE00F74D9B /* map.png */,
+				EF0B29F92868681100F74D9B /* mapDoctor.png */,
+				D14886A82867708900E387E7 /* Preview Content */,
+			);
+			path = Soresa;
+			sourceTree = "<group>";
+		};
+		D14886A82867708900E387E7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D14886A92867708900E387E7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D148869E2867708400E387E7 /* Soresa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D14886B22867708900E387E7 /* Build configuration list for PBXNativeTarget "Soresa" */;
+			buildPhases = (
+				D148869B2867708400E387E7 /* Sources */,
+				D148869C2867708400E387E7 /* Frameworks */,
+				D148869D2867708400E387E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Soresa;
+			productName = Soresa;
+			productReference = D148869F2867708400E387E7 /* SanitUs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D14886972867708300E387E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D148869E2867708400E387E7 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D148869A2867708300E387E7 /* Build configuration list for PBXProject "Soresa" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D14886962867708300E387E7;
+			productRefGroup = D14886A02867708400E387E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D148869E2867708400E387E7 /* Soresa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D148869D2867708400E387E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0B29FA2868681100F74D9B /* mapDoctor.png in Resources */,
+				EF0B29F028681BEE00F74D9B /* map.png in Resources */,
+				D14886AA2867708900E387E7 /* Preview Assets.xcassets in Resources */,
+				EF0B29F628683E4B00F74D9B /* img_quattro.png in Resources */,
+				D14886A72867708900E387E7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D148869B2867708400E387E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D104139B2867F465009205E9 /* ListOfDoctorsView.swift in Sources */,
+				D14886AF2867708900E387E7 /* Soresa.xcdatamodeld in Sources */,
+				EF0B29EE2868098E00F74D9B /* DetailDoctorView.swift in Sources */,
+				D10C8B9728677CC000E3D529 /* MainView.swift in Sources */,
+				D10C8B9D2867DE7400E3D529 /* TherapiesView.swift in Sources */,
+				D14886AC2867708900E387E7 /* Persistence.swift in Sources */,
+				D10C8B9B2867D65A00E3D529 /* DoctorListView.swift in Sources */,
+				D10C8B9F2867E19200E3D529 /* DoctorMapView.swift in Sources */,
+				D14886A52867708400E387E7 /* ContentView.swift in Sources */,
+				EF0B29F8286841F900F74D9B /* MedicineView.swift in Sources */,
+				13B55B48286816790088004A /* GenericCategoryEntryView.swift in Sources */,
+				D10C8B95286776AC00E3D529 /* ViewRouter.swift in Sources */,
+				D14886B6286770EB00E387E7 /* LoginView.swift in Sources */,
+				D14886A32867708400E387E7 /* SoresaApp.swift in Sources */,
+				D10C8B992867CE2300E3D529 /* MedicalRecordsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D14886B02867708900E387E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D14886B12867708900E387E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D14886B32867708900E387E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Soresa/Preview Content\"";
+				DEVELOPMENT_TEAM = 8MLWSX97TB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.danlo95.SanitUs;
+				PRODUCT_NAME = SanitUs;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D14886B42867708900E387E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Soresa/Preview Content\"";
+				DEVELOPMENT_TEAM = 8MLWSX97TB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.danlo95.SanitUs;
+				PRODUCT_NAME = SanitUs;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D148869A2867708300E387E7 /* Build configuration list for PBXProject "Soresa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14886B02867708900E387E7 /* Debug */,
+				D14886B12867708900E387E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D14886B22867708900E387E7 /* Build configuration list for PBXNativeTarget "Soresa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14886B32867708900E387E7 /* Debug */,
+				D14886B42867708900E387E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D14886AD2867708900E387E7 /* Soresa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D14886AE2867708900E387E7 /* Soresa.xcdatamodel */,
+			);
+			currentVersion = D14886AE2867708900E387E7 /* Soresa.xcdatamodel */;
+			path = Soresa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D14886972867708300E387E7 /* Project object */;
+}
