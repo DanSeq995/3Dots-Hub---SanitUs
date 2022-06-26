@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Soresa
-//
-//  Created by Simone Giordano on 25/06/22.
-//
-
 import SwiftUI
 import CoreData
 

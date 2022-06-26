@@ -1,6 +1,5 @@
 import Foundation
 
-
 enum ViewStatus {
     case login,
          main,

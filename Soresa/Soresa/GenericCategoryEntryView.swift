@@ -1,10 +1,3 @@
-//
-//  GenericCategoryEntryView.swift
-//  Soresa
-//
-//  Created by Michele Aversana on 26/06/22.
-//
-
 import SwiftUI
 
 extension UIColor {
